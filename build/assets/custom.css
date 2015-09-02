@@ -1,0 +1,8 @@
+body {
+    background: #DDD url(bg.jpg) no-repeat;
+}
+
+.container {
+    min-height: 600px;
+    background: rgba(255, 255, 255, 0.5);
+}

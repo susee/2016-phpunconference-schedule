@@ -1,0 +1,7 @@
+{
+  "name": "phpunconf-schedule",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

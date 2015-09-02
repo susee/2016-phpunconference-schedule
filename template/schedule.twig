@@ -1,0 +1,25 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Time</th>
+                {% for roomName in rooms %}
+                    <th>{{ roomName }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for block in slots %}
+                <tr>
+                    <td>{{ block.time }}</td>
+                    {% for slotName in block.rooms %}
+                        <td>{{ slotName }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

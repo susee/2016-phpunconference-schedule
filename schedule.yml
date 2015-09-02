@@ -1,0 +1,26 @@
+saturday:
+  title: Samstag
+  rooms:
+    - A1
+    - B2
+    - C3
+  slots:
+    first:
+      time: 9:00
+      rooms:
+        - Talk 1
+        - Talk 2
+        - Talk 3
+sunday:
+  title: Sonntag
+  rooms:
+    - A1
+    - B2
+    - C3
+  slots:
+    first:
+      time: 10:00
+      rooms:
+        - Talk 1
+        - Talk 2
+        - Talk 3

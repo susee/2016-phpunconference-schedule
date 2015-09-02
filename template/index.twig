@@ -1,0 +1,12 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+    <h1>Overview</h1>
+    <ol>
+        {% for data in schedules %}
+            <li>
+                <a href="{{ data.file }}">{{ data.name }}</a>
+            </li>
+        {% endfor %}
+    </ol>
+{% endblock %}
