@@ -3,6 +3,12 @@
 {% block content %}
     <h1>{{ title }}</h1>
     <table class="table table-striped">
+        <colgroup>
+            <col width="200">
+            <col>
+            <col>
+            <col>
+        </colgroup
         <thead>
             <tr>
                 <th>Time</th>
@@ -16,7 +22,7 @@
                 <tr>
                     <td>{{ block.time }}</td>
                     {% for slotName in block.rooms %}
-                        <td>{{ slotName }}</td>
+                        <td {% if block.rooms|length == 1 %}colspan="{{ rooms|length }}" class="special"{% endif %}>{{ slotName }}</td>
                     {% endfor %}
                 </tr>
             {% endfor %}

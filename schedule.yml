@@ -5,12 +5,58 @@ saturday:
     - B2
     - C3
   slots:
-    first:
-      time: 9:00
+    one:
+      time: 9:30 - 10:30
       rooms:
-        - Talk 1
-        - Talk 2
-        - Talk 3
+        - Registration
+    two:
+      time: 10:30 - 11:45
+      rooms:
+        - Opening Session
+    three:
+      time: 11:45 - 12:30
+      rooms:
+        - Keynote ( In Raum ?? )
+    four:
+      time: 12:30 - 13:15
+      rooms:
+        - Talk
+        - Talk
+        - Talk
+    five:
+      time: 13:15 - 14:30
+      rooms:
+        - Lunch
+    six:
+      time: 14:30 - 15:15
+      rooms:
+        - Talk
+        - Talk
+        - Talk
+    seven:
+      time: 15:15 - 15:45
+      rooms:
+        - Coffee break
+    eight:
+      time: 15:45 - 16:30
+      rooms:
+        - Talk
+        - Talk
+        - Talk
+    nine:
+      time: 16:45 - 17:30
+      rooms:
+        - Talk
+        - Talk
+        - Talk
+    ten:
+      time: 17:30 - 18:30
+      rooms:
+        - Closing
+    eleven:
+      time: Ab 19 Uhr
+      rooms:
+        - PHProst
 sunday:
   title: Sonntag
   rooms:
@@ -19,8 +65,46 @@ sunday:
     - C3
   slots:
     first:
-      time: 10:00
+      time: 10:00 - 11:00
       rooms:
-        - Talk 1
-        - Talk 2
-        - Talk 3
+        - Welcome
+    two:
+      time: 11:30 - 12:15
+      rooms:
+        - Talk
+        - Talk
+        - Talk
+    three:
+      time: 12:15 - 12:30
+      rooms:
+        - Break
+    four:
+      time: 12:30 - 13:15
+      rooms:
+        - Talk
+        - Talk
+        - Talk
+    five:
+      time: 13:15 - 14:30
+      rooms:
+        - Lunch
+    six:
+      time: 14:30 - 15:15
+      rooms:
+        - Talk
+        - Talk
+        - Talk
+    seven:
+      time: 15:15 - 15:45
+      rooms:
+        - Break
+    eight:
+      time: 15:45 - 16:30
+      rooms:
+        - Talk
+        - Talk
+        - Talk
+    nine:
+      time: 16:30 - 17:30
+      rooms:
+        - Closing
