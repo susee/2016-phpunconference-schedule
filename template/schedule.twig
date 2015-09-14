@@ -22,7 +22,7 @@
                 <tr>
                     <td>{{ block.time }}</td>
                     {% for slotName in block.rooms %}
-                        <td {% if block.rooms|length == 1 %}colspan="{{ rooms|length }}" class="special"{% endif %}>{{ slotName }}</td>
+                        <td {% if block.rooms|length == 1 %}colspan="{{ rooms|length }}" class="special"{% endif %}>{{ slotName|raw }}</td>
                     {% endfor %}
                 </tr>
             {% endfor %}
