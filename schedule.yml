@@ -46,14 +46,14 @@ saturday:
         - "CleanCode"
         - "DevOpsSecurity"
         - "Interoperable PHP"
-        - "Scrum Anwendungsfehler"
+        - "TDD - Hands on"
     nine:
       time: 16:45 - 17:30
       rooms:
         - "Technische Schulden abbaune"
         - "git for data"
         - "VIM - As PHP IDE"
-        - "TDD - Hands on"
+        - "Scrum Anwendungsfehler"
     ten:
       time: 17:30 - 18:30
       rooms:
