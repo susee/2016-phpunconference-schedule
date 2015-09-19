@@ -21,7 +21,7 @@ saturday:
     four:
       time: 12:30 - 13:15
       rooms:
-        - "PHPSpec: a SpecBDD tool"
+        - "Get rid of crontabs"
         - "Architecture/Distributed Systems"
         - "Dependency Management"
         - "In Tree I belive"
@@ -32,7 +32,7 @@ saturday:
     six:
       time: 14:30 - 15:15
       rooms:
-        - "Get rid of crontabs"
+        - "PHPSpec: a SpecBDD tool"
         - "Überblick DDD - Domain Driven Designs"
         - "Get to know CouchDB"
         - "Open Heart Surgey"
