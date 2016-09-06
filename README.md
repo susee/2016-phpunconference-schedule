@@ -10,9 +10,10 @@ on twitter or create a PR right here.
 Installation
 ------------
 
-Get all dependencies ( needed to build and frontend dependencies later for the schedule itself )
+Get build dependencies. Frontend dependencies are checked in as they must be provided for
+gh-pages branch anyway.
 
-`composer install && bower install`
+`composer install`
 
 Now you can change the config and build the schedule with the following command
 
