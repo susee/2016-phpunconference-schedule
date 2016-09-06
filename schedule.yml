@@ -1,97 +1,93 @@
 saturday:
-  title: Samstag
+  title: Saturday
   rooms:
-    - A
-    - B
-    - C
-    - D
+    - first floor ( EG )
+    - second floor ( 1 OG )
+    - Workshop Room
   slots:
     one:
       time: 9:30 - 10:30
       rooms:
-        - Registration
+        - Registration & Breakfast
     two:
-      time: 10:30 - 11:45
+      time: 10:30 - 11:00
       rooms:
         - Opening Session
+    twopointtwo:
+      time: 11:00 - 11:45
+      rooms:
+        - Voting
     three:
       time: 11:45 - 12:30
       rooms:
-        - <a target="_blank" href="http://www.php-unconference.de/2015/09/11/keynote-speaker-from-cuba-pablo-mestre-drake/">Keynote</a> ( In Raum A )
+        - "Talk Slot A"
+        - "Talk Slot A"
+        - "Talk Slot A"
     four:
-      time: 12:30 - 13:15
+      time: 12:45 - 13:30
       rooms:
-        - "Get rid of crontabs"
-        - "Architecture/Distributed Systems"
-        - "Dependency Management"
-        - "In Tree I belive"
+        - "Talk Slot B"
+        - "Talk Slot B"
+        - "Talk Slot B"
     five:
-      time: 13:15 - 14:30
+      time: 13:30 - 14:45
       rooms:
         - Lunch
     six:
-      time: 14:30 - 15:15
+      time: 14:45 - 15:30
       rooms:
-        - "PHPSpec: a SpecBDD tool"
-        - "Überblick DDD - Domain Driven Designs"
-        - "Get to know CouchDB"
-        - "Open Heart Surgey"
+        - "Talk Slot C"
+        - "Talk Slot C"
+        - "Talk Slot C"
     seven:
-      time: 15:15 - 15:45
+      time: 15:30 - 16:00
       rooms:
         - Coffee break
     eight:
-      time: 15:45 - 16:30
+      time: 16:00 - 16:45
       rooms:
-        - "CleanCode"
-        - "DevOpsSecurity"
-        - "Interoperable PHP"
-        - "TDD - Hands on"
+        - "Talk Slot D"
+        - "Talk Slot D"
+        - "Talk Slot D"
     nine:
-      time: 16:45 - 17:30
+      time: 17:00 - 17:30
       rooms:
-        - "Technische Schulden abbaune"
-        - "git for data"
-        - "VIM - As PHP IDE"
-        - "Scrum Anwendungsfehler"
+        - Ligthning Talks ( 3x 10 minutes )
     ten:
-      time: 17:30 - 18:30
+      time: 17:30 - 18:00
       rooms:
         - Closing
     eleven:
-      time: Ab 19 Uhr
+      time: starting around 19:00
       rooms:
-        - <a target="_blank" href="http://www.php-unconference.de/2015/09/14/phprost-im-betahaus-sa-19-9-ab-19-00-uhr/">PHProst im betahaus</a>
+        - "PHProst. Same location! Band starts at ??:??"
 sunday:
-  title: Sonntag
+  title: Sunday
   rooms:
-    - A
-    - B
-    - C
-    - D
+    - first floor ( EG )
+    - second floor ( 1 OG )
+    - Workshop Room
   slots:
     first:
-      time: 10:00 - 11:00
+      time: 10:00 - 10:30
       rooms:
-        - Welcome
+        - Welcome & Breakfast
+    onepointtwo:
+      time: 10:30 - 11:30
+      rooms:
+        - "Voting"
     two:
       time: 11:30 - 12:15
       rooms:
-        - Commando Code
-        - Obama - Cyberattacks are not acceptable
-        - Cyberangriff - Juristische Sicht
-        - Freifunk - WLAN für Flüchtlinge
-    three:
-      time: 12:15 - 12:30
-      rooms:
-        - Break
+        - "Talk Slot A"
+        - "Talk Slot A"
+        - "Talk Slot A"
     four:
       time: 12:30 - 13:15
       rooms:
-        - Async PHP
-        - Featurebased-development
-        - Magento 2 - Shopware - Oxid
-        - Sand oder Öl im Getriebe
+        - "Talk Slot B"
+        - "Talk Slot B"
+        - "Talk Slot B"
     five:
       time: 13:15 - 14:30
       rooms:
@@ -99,19 +95,14 @@ sunday:
     six:
       time: 14:30 - 15:15
       rooms:
-        - Running (Web)Aoos without Servers
-        - ElasticSearch
-        - Pure PHP Delivery mit Magallens
-        - Organisation - Mitarbeitern im Homeofficce
-    seven:
-      time: 15:15 - 15:45
-      rooms:
-        - Break
+        - "Talk Slot C"
+        - "Talk Slot C"
+        - "Talk Slot C"
     eight:
-      time: 15:45 - 16:30
+      time: 15:45 - 16:15
       rooms:
-        - Ligthning Talks
+        - Ligthning Talks ( 3x 10 minutes )
     nine:
-      time: 16:30 - 17:30
+      time: 16:15 - 17:00
       rooms:
         - Closing

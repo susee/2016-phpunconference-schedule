@@ -1,44 +1,48 @@
-PHP Unconference schedule
+PHP Unconference 2016 schedule
 =========================
 
-Auf der Suche nach dem Schedule?
-http://bootev.github.io/2015-phpunconference-schedule
+Looking for the schedule? 
+http://bootev.github.io/2016-phpunconference-schedule
+
+If you found a typo or something like that you think should be fixed? Notify @phpunconference
+on twitter or create a PR right here.
 
 Installation
 ------------
 
-Um den Schedule zu Generieren müssen erst alle Abhängigkeiten geladen werden.
-Dazu benötigst du Composer und Bower. Wenn beides vorhanden ist:
+Get all dependencies ( needed to build and frontend dependencies later for the schedule itself )
 
-```
-composer install && bower install
-```
+`composer install && bower install`
 
-Danach kannst du mit folgendem Befehl den Schedule generieren.
+Now you can change the config and build the schedule with the following command
 
-```
-php build.php phpuc:build
-```
+`php build.php phpuc:build`
 
-Konfiguration
+Configuration
 -------------
 
-Der Plan wird in der schedule.yml gespeichert. Die Datei muss folgenden Aufbau haben
+The schedule is structured in the schedule.yaml. `<index>` is the key for the filename. We
+have one for the first and one for the second day of the conference. The name for the link
+on the index page is defined by the `title`. Next we define what rooms are available for
+that day and the last item in the list is `slots`.  
+`rooms` in each slot may contain just one item to signal lunch breaks or the like.
 
 ```
 <index>:
-  title: <Sprechender Name des tages>
+  title: <Name of the index>
   rooms:
-    <1..n Raumnamen als Array>
+    <1..n array of room names>
   slots:
     <index>:
-      time: <Angabe der Uhrzeit>
+      time: <Time slot>
       rooms:
-        <Gleiche Anzahl an Talks in der Reihemnfolge in der auch die Räume oben angegeben wurden>
+        <Array of the same length as rooms with talk titles>
 ```
 
 Workflow
 --------
 
-Nachdem der Schedule generiert wurde kann man den gesamten Inhalt des Ordners ./build in den branch gh-pages
-commiten.
+After building the schedule you need to push the HTML and stuff to the gh-pages branch.
+You should use this easy on-liner
+
+`git subtree push --prefix build origin gh-pages`
