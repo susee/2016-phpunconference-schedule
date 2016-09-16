@@ -60,7 +60,7 @@ saturday:
     eleven:
       time: starting 18:00
       rooms:
-        - "PHProst. Same location! Band starts at ??:??"
+        - "PHProst. Same location! Band starts at 21:15"
 sunday:
   title: Sunday
   rooms:
